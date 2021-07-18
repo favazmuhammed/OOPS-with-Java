@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\favas\eclipse-workspace-java\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+4293803662.index
+4219279280.index
+1130219040.index
+3488976128.index
+1932068725.index
+257096052.index

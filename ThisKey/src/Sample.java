@@ -6,8 +6,8 @@ public class Sample {
 	
 	Sample(int a, int b){
 		
-		this.a = a;
-		this.b = b;
+		a = this.a;
+		b = this.b;
 		
 		System.out.println("a: "+a+" b: "+b);	
 	}	

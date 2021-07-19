@@ -12,11 +12,15 @@ public class HelloStatic {
 		h.hello();
 		hey();
 		
+		h.a = 200;
+		h1.a= 400;
 		h.b= 50;
 		h1.b= 100;
 		
 		System.out.println("h-b: "+h.b);
 		System.out.println("h1-b: "+h1.b);
+		System.out.println("h-a: "+h.a);
+		System.out.println("h1-a: "+h1.a);
 	}
 	
 	

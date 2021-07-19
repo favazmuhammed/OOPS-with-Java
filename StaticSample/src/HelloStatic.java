@@ -2,17 +2,24 @@
 public class HelloStatic {
 	
  
-	static int a=10;
+	int a=10;
 	public static void main(String ar[]) {
 		
-		System.out.println(a);
-		hello();
+		HelloStatic h=new HelloStatic();
+		System.out.println(h.a);
+		h.hello();
+		hey();
 	}
 	
 	
-	static void hello() {
+	void hello() {
 	
 	
+	}
+	
+	static void hey() {
+		
+		
 	}
 	
 	

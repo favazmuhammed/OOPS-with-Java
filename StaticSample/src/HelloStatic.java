@@ -2,7 +2,7 @@
 public class HelloStatic {
 	
  
-	int a=10;
+	static int a=10;
 	public static void main(String ar[]) {
 		
 		System.out.println(a);
@@ -10,7 +10,7 @@ public class HelloStatic {
 	}
 	
 	
-	void hello() {
+	static void hello() {
 	
 	
 	}

@@ -6,7 +6,13 @@ public class B extends A {
 	void display() {
 		
 		System.out.println("its sub class B");
-
+		
+		a = 20;
+		super.a = 30;
+		int c = a + super.a;
+		
+		System.out.println("Sum = "+c);
+	
 		
 	}
 	

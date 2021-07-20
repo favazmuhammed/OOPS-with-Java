@@ -1,5 +1,5 @@
 
-public class A {
+public class A extends Hello {
 	
 	A(){
 		

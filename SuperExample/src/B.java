@@ -5,22 +5,16 @@ public class B extends A {
 	
 	B(){
 		
+		super(10);
 		System.out.println("its B constructor");
 	}
 	
-	B(int b){
+	B(int a){
 		
-		System.out.println("its argument constructor of A");
+		System.out.println("its argument constructor of B");
 	}
 	
-	void display() {
-		
-		System.out.println("its sub class B");
-		
-		
-	}
 	
-
 	
 	public static void main(String[] args) {
 		

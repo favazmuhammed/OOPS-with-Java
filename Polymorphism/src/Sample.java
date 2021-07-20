@@ -1,13 +1,23 @@
 
-public class Sample {
+public class Sample extends Hello {
+	
+	
+	void display() {
+		
+		
+		System.out.println("Its sub class");
+	}
+	
 	
 	public static void main(String[] args) {
 		
 		
-		Hello h=new Hello();
+		Sample s=new Sample();
 		
-		h.display();
-		h.display(10);
+		s.display();
+		
+		
+		
 	}
 
 }

@@ -10,7 +10,6 @@ INDEX VERSION 1.131+C:\Users\favas\eclipse-workspace-java\.metadata\.plugins\org
 3218502548.index
 76936457.index
 905400710.index
-2301363899.index
 45831333.index
 4104279910.index
 4083530874.index

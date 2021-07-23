@@ -1,5 +1,5 @@
 
-public class ThreadSample extends Thread {
+public class ThreadSample implements Runnable{
 	
 	
 	int a;
@@ -8,10 +8,7 @@ public class ThreadSample extends Thread {
 		this.a = a;
 	}
 	
-	@Override
 	public void run() {
-		// TODO Auto-generated method stub
-		super.run();
 		
 		for(int i=0; i<10; i++) {
 			
